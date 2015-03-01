@@ -1,0 +1,33 @@
+﻿Build started 1/17/2015 3:16:47 AM.
+     1>Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\TwitchPlaysAPI\TwitchPlaysAPI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IRCClient.cpp IRCHandler.cpp IRCSocket.cpp Main.cpp Thread.cpp
+         IRCClient.cpp
+         IRCHandler.cpp
+         IRCSocket.cpp
+         Main.cpp
+         Thread.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\Release\TwitchPlaysAPI.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\Release\TwitchPlaysAPI.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\Release\TwitchPlaysAPI.lib" /MACHINE:X86 /SAFESEH Release\IRCClient.obj
+         Release\IRCHandler.obj
+         Release\IRCSocket.obj
+         Release\Main.obj
+         Release\Thread.obj
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__send@16
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__gethostbyname@4
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__closesocket@4
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__socket@12
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__recv@16
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__WSACleanup@0
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__setsockopt@20
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__shutdown@8
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__htons@4
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__WSAStartup@8
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__connect@12
+     1>IRCSocket.obj : error LNK2001: unresolved external symbol __imp__ioctlsocket@12
+     1>D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\Release\TwitchPlaysAPI.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\TwitchPlaysAPI\TwitchPlaysAPI\TwitchPlaysAPI.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.43
